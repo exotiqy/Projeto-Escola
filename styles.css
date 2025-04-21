@@ -1,0 +1,162 @@
+:root{
+    --main-color: #00BFFF;
+    --black: #13131a;
+    --bg: #010102;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);  
+    background-color: darkgray;
+}
+
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid ;
+    padding-bottom: 0.5rem;
+    font-size: 1.9rem;
+}
+
+.header img{
+    height: 70px;
+    width: 70px;
+    border-radius: 150px;
+}
+
+.btn{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 100vh;
+}
+
+.btn:hover{
+    letter-spacing: 0.1rem;
+}
+
+.btn2{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 100vh;
+}
+
+.container-inicio{
+    background: #13131a;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-inicio section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 60rem;
+}
+
+.content h3{
+    color: #fff;
+    font-size: 5rem;
+
+}
+
+.content p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1.8;
+    padding: 1rem 0rem;
+}
+
+.title{
+    font-size: 3rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sobre .row{
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    gap: 1.5rem;
+}
+
+.sobre .row .content{
+    padding: 2rem;
+}
+
+.sobre .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+
+}
+
+.sobre .row .content p{
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+
+}
+
+.sobre .row .content img{
+  
+}
